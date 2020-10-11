@@ -1,5 +1,4 @@
 <?php
-$time_start = microtime(true);
 $total = 0;
 $handle = @fopen("input.txt", "r");
 if ($handle) {
@@ -8,6 +7,4 @@ if ($handle) {
     }
     fclose($handle);
 }
-$time_end = microtime(true);
-
 echo "\n\n $total";
