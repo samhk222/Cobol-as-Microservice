@@ -1,3 +1,2 @@
-# Cobol-as-Microservice
-# Cobol-as-Microservice
-# Cobol-as-Microservice
+Repositório para demostrar como podemos utilizar o Cobol como um microserviço e comparativo de processamento com PHP
+

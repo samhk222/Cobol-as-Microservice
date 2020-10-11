@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  webserver:
+    build:
+      context: ./webserver
+    container_name: "SAM-web-TUTO"
+    ports:
+      - "8877:80"
+    volumes:
+      - ./webserver/www:/var/www/html/
+      - ./webserver/config/php/php.ini:/usr/local/etc/php/php.ini
+      - ./webserver/config/vhosts:/etc/apache2/sites-enabled
