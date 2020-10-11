@@ -4,7 +4,6 @@ services:
   webserver:
     build:
       context: ./webserver
-    container_name: "SAM-web-TUTO"
     ports:
       - "8877:80"
     volumes:
